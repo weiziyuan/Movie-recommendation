@@ -1,2 +1,1 @@
-# hello world
-Weizi's first repository test
+# fun projects
