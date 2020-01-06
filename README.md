@@ -47,6 +47,9 @@ We saw a sharp decline in number of ratings from 100.Therefore, we will choose t
 
 ![alt text](https://github.com/weiziyuan/Movie-recommendation/blob/master/image/count_vs_rating.png)
 
+We pick movie 471 and see other movies' rating correlation with it.
+![alt text](https://github.com/weiziyuan/Movie-recommendation/blob/master/image/movie471_corr.png)
+
 Simlar movies to movie 471
 
 ![alt text](https://github.com/weiziyuan/Movie-recommendation/blob/master/image/similar_to_471.png)
