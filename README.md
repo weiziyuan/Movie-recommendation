@@ -34,8 +34,9 @@ RMSE = 0.687 on all data, saying that on average the model predicts 0.69 above o
 ![alt text](https://github.com/weiziyuan/Movie-recommendation/blob/master/image/mp_alldata_user.png)
 
 ## Movie recommendation
-We first recommend movies to user 414 who rated largest number of movies(2698).
+We first recommend movies to user 414 and 599 who rated largest number of movies(2698 and 2478).
 ![alt text](https://github.com/weiziyuan/Movie-recommendation/blob/master/image/user414.png)
+![alt text](https://github.com/weiziyuan/Movie-recommendation/blob/master/image/user599.png)
 
 ## Finding similar movies
 We find similar movie based on the correlation between movie ratings, the closer the correlation between movie A and B to 1, the more similar they are.
