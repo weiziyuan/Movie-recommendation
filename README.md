@@ -60,7 +60,7 @@ Overall, the model did a good job on predicting the user rating, specifically, b
 
 Two possible reasons:
 * most ratings are between 2-4(we can tell from the avg(rating)-count plot), which means extreme high or low ratings are sparse, therefore, to accurately predict ratings in this region may be more difficult.
-* We know that the dataframe is highly sparse(98.5%), again bring challenges to the prediction. 
+* We know that the dataframe is highly sparse(98.3%), again bring challenges to the prediction. 
 
 Suggestions :
 * We could further increase iteration to lower the RMSE, however, due to long running time, we didn’t try it here. Also, we noticed before, this didn’t really help too much.
