@@ -11,7 +11,7 @@ The purpose of the project are to:
 
 To achieve the goal, we will:
 
-* Train the regression model with Alternating Least Squares (ALS) algorithm.
+* Train the model with Alternating Least Squares (ALS) algorithm.
 
 * Predict movie rating and recommend movies to users.
 
