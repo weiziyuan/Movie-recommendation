@@ -28,6 +28,15 @@ This will be implemented on Spark due to its fast speed for large-scale data pro
 ![alt text](https://github.com/weiziyuan/Movie-recommendation/blob/master/image/rating_table.png)
 The rating dataframe is 98.3% empty.
 
+Histogram of the user rating count
+![alt text](https://github.com/weiziyuan/Movie-recommendation/blob/master/image/hist_rating_cnt.png)
+
+Histogram of the average user rating
+
+![alt text](https://github.com/weiziyuan/Movie-recommendation/blob/master/image/hist_avg_rating.png)
+
+Most movie ratings lie in 1.5-4.5.
+
 ## Model performance
 RMSE = 0.687 on all data, saying that on average the model predicts 0.69 above or below values of the original ratings matrix.
 
