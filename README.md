@@ -23,7 +23,7 @@ To achieve the goal, we will:
 This will be implemented on Spark due to its fast speed for large-scale data processing and readiness to use.
 
 
-## Take a glance at the data
+## Exploratory data analysis
 ![alt text](https://github.com/weiziyuan/Movie-recommendation/blob/master/image/movie_table.png)
 ![alt text](https://github.com/weiziyuan/Movie-recommendation/blob/master/image/rating_table.png)
 The rating dataframe is 98.3% empty.
