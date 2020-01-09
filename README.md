@@ -1,7 +1,6 @@
 # Movie Recommendation Engine Building in Apache Spark
-code link:
+For complete code in Spark, please click [here]( https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/2268229575846883/1611422526940121/6723471235902913/latest.html)
 
-https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/2268229575846883/1611422526940121/6723471235902913/latest.html
 ## Overview
 In this project, the movie data is movie lens data set which includes about 600 users and 9500 movies.
 
