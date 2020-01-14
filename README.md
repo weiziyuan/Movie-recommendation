@@ -21,6 +21,16 @@ To achieve the goal, we will:
 
 This will be implemented on Spark due to its fast speed for large-scale data processing and readiness to use.
 
+## About ALS
+Many recommendation systems suggest item to users based on collaborative filtering(CF) techniques. However, CF have some major problems:
+
+* scability : lack of ability to scale to larger datasets when more user and items were added into the database
+
+* item cold-start problem: when movies added to the database have none or little interactions because system rely on the movie’s interactions to make recommendations
+
+* popularity bias: the system recommends the movies with the most interactions without any personalization
+
+In collaborative filtering, matrix factorization is the state-of-the-art solution for sparse data problem. ALS recommender is a matrix factorization algorithm that uses Alternating Least Squares with Weighted-Lamda-Regularization (ALS-WR).
 
 ## Exploratory data analysis
 ![alt text](https://github.com/weiziyuan/Movie-recommendation/blob/master/image/movie_table.png)
