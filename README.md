@@ -37,6 +37,7 @@ This allows model to predict better personalized movie ratings for users.
 With matrix factorization, less-rated movies can have rich latent features as much as popular movies have, which improves recommender’s ability to recommend less-known movies.
 
 The details of the matrix factorization is shown below:
+![alt text](https://github.com/weiziyuan/Movie-recommendation/blob/master/image/matrix%20factorization.png)
 
 More about ALS please refer to [here](https://towardsdatascience.com/prototyping-a-recommender-system-step-by-step-part-2-alternating-least-square-als-matrix-4a76c58714a1)
 
