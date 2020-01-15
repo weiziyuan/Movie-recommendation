@@ -30,7 +30,15 @@ Many recommendation systems suggest item to users based on collaborative filteri
 
 * popularity bias: the system recommends the movies with the most interactions without any personalization
 
-In collaborative filtering, matrix factorization is the state-of-the-art solution for sparse data problem. ALS recommender is a matrix factorization algorithm that uses Alternating Least Squares with Weighted-Lamda-Regularization (ALS-WR).
+In collaborative filtering, matrix factorization is the state-of-the-art solution for sparse data problem. ALS recommender is a matrix factorization algorithm that uses Alternating Least Squares with Weighted-Lamda-Regularization (ALS-WR). In the matrix factorization, the rating matrix is decomposed into user and movie matrix. The column of the user matrix describes the latent feature of the users and the rows of the movie matrix descibe the latent feature of the movies.
+
+This allows model to predict better personalized movie ratings for users.
+
+With matrix factorization, less-rated movies can have rich latent features as much as popular movies have, which improves recommender’s ability to recommend less-known movies.
+
+The details of the matrix factorization is shown below:
+
+More about ALS please refer to [here](https://towardsdatascience.com/prototyping-a-recommender-system-step-by-step-part-2-alternating-least-square-als-matrix-4a76c58714a1)
 
 ## Exploratory data analysis
 ![alt text](https://github.com/weiziyuan/Movie-recommendation/blob/master/image/movie_table.png)
