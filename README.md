@@ -1,5 +1,5 @@
 # Movie Recommendation Engine Building in Apache Spark
-For complete code in Spark, please click [here]( https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/2268229575846883/1611422526940121/6723471235902913/latest.html)
+For complete code in Spark, please click [here](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/2268229575846883/1611422526940121/6723471235902913/latest.html)
 
 ## Overview
 In this project, the movie data is movie lens data set which includes about 600 users and 9500 movies.
@@ -69,19 +69,18 @@ We first recommend movies to user 414 and 599 who rated largest number of movies
 ![alt text](https://github.com/weiziyuan/Movie-recommendation/blob/master/image/user599.png)
 
 ## Finding similar movies
-We find similar movie based on the correlation between movie ratings, the closer the correlation between movie A and B to 1, the more similar they are.
+We find similar movie based on the cosine similarities between movie features, the closer it is to 1, the more similar they are.
 
-However, some movies have very few ratings and may end with high correlation simply because only one or two users gave them similar ratings. These are not reliable results.
+Fortunately, we have extracted the latent movie features from the matrix factorization which can be used here.
 
-We saw a sharp decline in number of ratings from 100.Therefore, we will choose this as our threshold. This is saying, we will only find similar movies that have been rated more than 100 times
+One more thing to notice is that, here,we use movies with high rating counts in order to increase the accuracy of our finding. This is because the more the movie is rated, the more data we have to use for  matrix factorization, therefore, higher chance the extracted latent feature matrix of this movie is closer to the correct one.
+
+We saw a sharp decline in number of ratings from 100 which defines our threshold. This is saying, we will only find similar movies that have been rated more than 100 times
 
 
 ![alt text](https://github.com/weiziyuan/Movie-recommendation/blob/master/image/count_vs_rating.png)
 
-We pick movie 471 and see other movies' rating correlation with it.
-![alt text](https://github.com/weiziyuan/Movie-recommendation/blob/master/image/movie471_corr.png)
-
-Simlar movies to movie 471
+We pick movie 471 and find simlar movies to movie 471
 
 ![alt text](https://github.com/weiziyuan/Movie-recommendation/blob/master/image/similar_to_471.png)
 
