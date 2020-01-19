@@ -74,7 +74,11 @@ Fortunately, we have extracted the latent movie features from the matrix factori
 
 ![alt text](https://github.com/weiziyuan/Movie-recommendation/blob/master/image/cos_similarity.png)
 
-One more thing to notice is that, here,we use movies with high rating counts in order to increase the accuracy of our finding. This is because the more the movie is rated, the more data we have to use for  matrix factorization, therefore, higher chance the extracted latent feature matrix of this movie is closer to the correct one.
+
+More about cosine similarity please refer to [here](https://www.machinelearningplus.com/nlp/cosine-similarity/)
+
+One more thing to notice is that, here,we use movies with high rating counts in order to increase the accuracy of our finding. This is because the more the movie is rated, the more data we have to use for)
+matrix factorization, therefore, higher chance the extracted latent feature matrix of this movie is closer to the correct one.
 
 We saw a sharp decline in number of ratings from 100 which defines our threshold. This is saying, we will only find similar movies that have been rated more than 100 times
 
